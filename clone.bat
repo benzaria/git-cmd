@@ -87,6 +87,7 @@ goto :eof
     exit /b 0
 
 :: Argument cases
+    :--token-save
     :-ts
         call :--token
         call :--save
